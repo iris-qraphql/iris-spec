@@ -9,8 +9,7 @@ iris addresses the following issues related to GraphQL:
 - GraphQL forces the client to select fields of types, which is not well suited for server-to-server applications (where you don't need selectivity, like in RPC) and is causing difficulties with recursive data types (like [tree types](https://github.com/iris-qraphql/iris-spec/blob/main/why-gql-needs-typed-scalars.md)).
 - Default values for GraphQL inputs are dangerous for recursive data types.
 - GraphQL does not support input unions
-- the separation between input and output types is not always practical and leads to a verbose schema definition.
-- GraphQL uses several limited entities to cover sum and product types that could be replaced by small but powerful entities like ADT.
+- the separation between input and output types and the use of multiple entities to cover sum and product types is not always practical and leads to a verbose schema definition.
 
 Iris solutions.
 
