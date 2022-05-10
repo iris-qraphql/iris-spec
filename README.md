@@ -1,6 +1,10 @@
 # Iris spec
 
+An alternative type system for GraphQL
+
 ## Motivation
+
+<img alt="Logo" align="right" src="https://github.com/iris-qraphql/iris-spec/img/logo.svg" width="15%" />
 
 The motivation of Iris is to combine the flexibility of the GraphQL query language with the formalism and strength of the Haskell type system.
 
